@@ -1,0 +1,46 @@
+\documentclass[11pt,letterpaper,oneside]{article}
+
+\input{packages.tex}
+
+\input{commands.tex}
+
+\title{
+\vspace{-1.5cm}
+TITLE
+ % \vspace{-0.7cm}
+ }
+ % \author{}
+\author{ firstname lastname \\
+% \vspace{-0.2cm}
+}
+\date{\small{{your affil} \\ {your affil address}\\
+\href{mailto:your@address.edu}{\texttt{your@address.edu}} 
+% \\\today
+}}  
+\begin{document}
+
+
+\pagenumbering{Alph}
+% \begin{titlepage}
+\maketitle
+% \thispagestyle{empty}
+% \end{titlepage}
+\pagenumbering{arabic}
+
+% % \maketitle
+% % \thispagestyle{empty}
+
+% \tableofcontents
+% \thispagestyle{empty}
+
+\input{tex/1.tex}
+
+
+\input{tex/2.tex}
+
+\newpage
+
+% \bibliographystyle{alpha}
+% \bibliography{refs}
+
+\end{document}
